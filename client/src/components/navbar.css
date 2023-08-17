@@ -1,0 +1,7 @@
+.navbar{
+    display: flex;
+    background-color: rgb(192, 255, 206);
+    justify-content: space-evenly;
+    font-size: 18px;
+    font-weight: bold;
+}
