@@ -11,7 +11,7 @@ const travelSchema = new mongoose.Schema({
     },
     destination: {
         type: String,
-        enum: Object.values['India', 'Africa', 'America', 'Europe', 'Australia'],
+        enum: ['India', 'Africa', 'America', 'Europe', 'Australia'],
         required: true
     },
     travelers: {
